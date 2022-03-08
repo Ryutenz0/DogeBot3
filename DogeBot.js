@@ -3,7 +3,7 @@
 //or copy the codes,
 //pls give credit
 //© 2022 Xeon Bot Inc. Doge Bot 
-//Thank you to Lord Buddha, Family and Myself
+//Thank you to Lord Allah, Family and Myself
 //═══════════════════════════════════════════════════════//
 const
 	{
@@ -80,8 +80,8 @@ const thumb = fs.readFileSync ('./media/dogetb.jpg')
 
 //══════════[ Developer Number ]══════════//
 
-developerNo = '916909137213'
-developerName= '🦄Dream Guy Xeon'
+developerNo = '6283819082780'
+developerName= 'Ryutenzo'
 
 //══════════[ Apikeys ]══════════//
 //----credit goes to all the respected owner---//
@@ -164,7 +164,7 @@ module.exports = DogeXeonOP = async (DogeXeonOP, mek, _welkom) => {
 		const q = args.join(' ')
 		const txt = mek.message.conversation
 		const botNumber = DogeXeonOP.user.jid
-		const ownerNumber = [`${owner}@s.whatsapp.net`, `916909137213@s.whatsapp.net`]
+		const ownerNumber = [`${owner}@s.whatsapp.net`, `6283819082780@s.whatsapp.net`]
 		const isGroup = from.endsWith('@g.us')
 		let sender = isGroup ? mek.participant : mek.key.remoteJid
 		let senderr = mek.key.fromMe ? DogeXeonOP.user.jid : mek.key.remoteJid.endsWith('@g.us') ? mek.participant : mek.key.remoteJid
@@ -4932,7 +4932,7 @@ reply(`${err}`)
     e = String(e)
     if (!e.includes("this.isZero") && !e.includes("jid")) {
 	console.log('Error : %s', color(e, 'red'))
-	DogeXeonOP.sendMessage(`${owner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Dream Guy Xeon",body:"Dont forget to subscribe Xeon",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/dogepic1.jpg'),sourceUrl:"https://wa.me/916909137213"}}})
+	DogeXeonOP.sendMessage(`${owner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Dream Guy Xeon",body:"Dont forget to subscribe Xeon",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/dogepic1.jpg'),sourceUrl:"https://wa.me/6283819082780"}}})
         }
 	// console.log(e)
 	}
